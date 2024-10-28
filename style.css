@@ -26,6 +26,7 @@ body{
   margin: 284px auto;
   border-radius: 32px;
   background-color: var(--text-color);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
 }
 
 #result{
@@ -60,6 +61,7 @@ body{
 #number h1{
   font: var(--hxl);
   color: var(--text-color);
+  height: 72px;
 }
 
 #number p{
@@ -138,11 +140,13 @@ ul li:nth-last-child(1){
 .names{
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 .hundred{
  display: flex;
  align-items: center;
+ gap: 8px;
 }
 
 .resultados, .possiveis{
