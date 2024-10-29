@@ -177,7 +177,7 @@ a:hover{
   background-image:linear-gradient( #7755FF 0%, #6943FF 0%, #2F2CE9 100%);
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
   #container{
     display: flex;
     flex-direction: column;
