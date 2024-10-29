@@ -181,7 +181,7 @@ a:hover{
   #container{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width:100%;
     margin: 0;
   }
 
@@ -190,6 +190,7 @@ a:hover{
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
     padding: 24px 52px 40px 52px;
+    width: 100%;
 
     p{
       font: var(--body-b);
