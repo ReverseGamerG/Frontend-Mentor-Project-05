@@ -225,4 +225,7 @@ a:hover{
   summary{
     padding: 24px 30px 30px 32px;
   }
+
+  ul li{
+    width: 100%;
 }
